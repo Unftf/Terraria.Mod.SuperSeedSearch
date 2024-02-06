@@ -1,0 +1,23 @@
+Super Seed Search - A world seed search engine 
+
+Bad luck with world generation again? This mod might help out without modifying world generation.
+
+It can search for world seeds which generate vanilla Terraria worlds with specific properties you are looking for. That means the seeds found here can also work without any mods (*). 
+Or as alternative this mod can also be used to just find some nice worlds with e.g. many Pyramids, a Living Tree near spawn and no Corruption in Jungle biome.
+
+
+[u][b] How to enter the seed search mode?[/b][/u]
+===> click the menu theme text at the bottom of the title screen until you reach the seed search mod theme.
+
+
+How does the mod work?
+During world generation it checks if the world matches the chosen search criteria - if not the mod ends world generation of the current seed and continue with the next seed. Some criteria can be checked at early world generation, some other need more world gen steps and some even the full world generation. Depending on chosen criteria it can be over a thousand times faster than normal world gen or just about the same speed.
+
+Good luck!
+
+(*)tModloader and with this also this mod generate slightly different worlds than in vanilla Terraria. With 1.4.4.9 those differences are very minor and only happen on seed depended x-coordinates. Mostly just different stalactite placement. In rare cases gem-trees.
+
+------------------------------------------------------------
+This mod also has some discord channel (discord.gg/6HXKa9a) and
+a Terraria forum page https://forums.terraria.org/index.php?threads/tool-1-4-super-seed-search-a-vanilla-world-seed-search-engine.112259/
+for questions, bug reports, feature suggestions or just common seed talking.

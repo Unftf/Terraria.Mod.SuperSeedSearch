@@ -1,0 +1,172 @@
+0.5.1.1
+(not updated yet)
+- fix for seed 0
+
+0.5.1.0
+- fix UI bug due to tModloader-update
+
+0.5.0.9
++ highlight water bolt
++ beaches as PoI, early world gen. pathlengt starting from jungle beach
++ more stats (dist from shimer, pathlength from jungle beach)
++ show more items by default: gold and shadow key near surface
+- fix typo
+
+0.5.0.8
+- fix some error with near pathlength
+
+0.5.0.6
+- some stats errors
++ more stats
++ predicted spawn location now aligned to nearby surface
++ shadow chest items
+
+
+0.5.0.0
++ more world image options: can display items out of the search conditions, or none, or ..
++ chest item modifier constraint
++ Point of interest (PoI) constraint west/east which only allows values >= 0
++ new PoI Desert Hive (surface) center
++ new PoI jungle gen main entrance location
++ new PoI snow biome surface center
++ PoI pathlength to spawn/jungle main
++ PoI (early) world gen pathlength to certains deeps like Underworld for jungle/spawn/desert/snow PoI
++ early world gen pathlengths to tiles/chests/object from jungle/spawn/desert/snow PoI
++ constraints: with new PoI's, and shimmer, depth below spawn 
++ more stats: evil biome type (how could that be missing?)
++ new stats option storing too many world stats (for post gen. data extraction)
++ pathlength to certain depths in extended stats
++ ~20% speed improvment for pathlenght, sky stuff small error ~2%+5
++ closest distance/difference to closest oasis, pyramid
++ Main Desert style (guess) + some local biome options: oasis/pyramid nearby
++ able to store a default config which loads on start
+
+0.4.4.7
++ PoI horizontal distance to beach & end of world
+
+0.4.4.5
++ stats + Main.worldSurface, Main.rockLayer
++ PoI to worldSurfaceLow 
++ tiles nearby Sand, Stone, Grass
++ option for partial world gen for floaing island prediction
+
+0.4.4.2
+-fix: pathlength leading to a crash
+
+0.4.4.1
++ change Dunerider max display depth to 250 below start of underground
+-fix: multiple passive tabs did not work as intended
+
+0.4.4.0
+# 1st 1.4.4.9 tModloader stable mod update
++ Jungle Shrine type
++ Ocean cave (dungeon side)
++ Salamander, Giant Shelly, Crawdad color type, count, extinct
++ Tile search constrains: Tile & Wall ID, Frame X,Y + option for any tile
++ floading island cloud and house tiles
++ Dungeon brick
++ Lihzahrd Altars & Door
++ changed pathlength to not add the final block to it (good for e.g. Lihzahrd Door)
++ 8 & 9th RNG number aded to pre-computed
++ small & large gold/silver coin stash (+early version for Pyramid)
++ background style + BG transitions positon for Forest and Cavern BG
++ tree style
++ background style & tree style info listed in stats file
+- fix: string seed replace can't turn off again
+
+
+0.4.2.14
++ minor enhance max possible pyramid count prediction
++ added some early guess for pyramids located inside dunes
++ show Dunerider boots at world image which are close or above the start of cavern layer
++ option to just store the wolrd image without the world file
+
+0.4.2.13
+- fix secret seeds not generating (almost) equal to vanilla
++ added secret seed modifies to do so (secret seeds have different version depening on the used name)
++ removed double temple extender fix (not needed anymore)
++ function to convert a world ID back to the initial seed the world was generated with (good for secret seeds)
+
+0.4.2.12
++ store world picture only
++ world gen info text
+- fix: derived stats 
+
+0.4.2.11
++ added floated island items to chest items
+
+0.4.2.10
++ extended stats (including shortest path length and total count to every item, tile, liquid, wire)
+
+0.4.2.9
++ hotfix: both not working
+
+0.4.2.8
++ quick bulb update
+
+0.4.2.7
++ displays the world seed at the world image
++ beta for no digging pathlength. Name you config file 'nodig4PL', to also store an image 'nodig4PLDraw', or normal pathlength 'dig4PLDraw'
+
+0.4.2.6
++ option to search Anti-Random evil biome
++ wires visible on world image map
++ new point of interest: top mid, top left, center world
++ & distances: start of silver/cabin spawning, 
+- fix: get fixed secret seed not working
+- fix: not changing secret seed during world gen
+
+0.4.2.5
++ able to search for both evil types
++ able to search for a list of seeds inside a text file
+- fix: instant bulb prediction
+- hotfix: fix of 0.4.2.4
+
+0.4.2.4
++ finch staff
++ world name option world size and evil type
++ first (predicted) RNG values in stats file
+- fix: not able to search for Hardmode biome side, dungeon & moss color if no rng number prediction selected
+
+0.4.2.3
++ natural bulb spawn prediction (test, might not work)
+
+0.4.2.2
++ dart traps
+
+0.4.2.1
+- fix for tModloader update breaking this mod
+
+0.4.2.0
++ surface tunnel mini biome
++ new tiles: herbs, mushrooms, jungle spore
++ more world map icons: cobalt shield , sky items, flower, gravity, boomstick, throwing knives, bast staute not in chest, bed
++ more stats in the stats file (worldgen genvars)
++ shimmer location as point of interest
++ new condition option 'passive': only check if the wg pass was reached with a differen search query
++ search realted to the topmost location of Life Crystals, Altars, Statues
++ Option to predict the location of Plantera bulbs after entering the game (in MP) (beta, error rate pretty high)
++ count certain values in a series of random numbers (beta, not fully tested)
++ some minor more (dirt blocks, option to search among all seeds, ..)
+- fixed spelling for Predcited Spawn. Some stored config files may not work anymore
+- fixed sorting error of WGH, distance to cavern layer and some more 
+
+0.4.1.15
++ tiles above/below/left/right
++ Dirtiest block pet tile
++ Glow Tulip pet object
++ PoI jungle gen starting location
++ bed
+
+0.4.1.2
+- hotfix, mod was broken
+
+0.4.1.1
++ ported to 1.4.4.9
++ much quicker rng number prediction
++ max pyramid possible count condition 
++ chest contains item id (beta, only >=, <= -> 2 cond needed)
++ new secret seeds
++ option to start in Hardmode without gen. Hardmode biomes
+
+

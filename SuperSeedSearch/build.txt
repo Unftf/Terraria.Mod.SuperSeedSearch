@@ -1,0 +1,8 @@
+displayName = Super Seed Search - world search engine
+homepage = https://forums.terraria.org/index.php?threads/tool-1-4-super-seed-search-a-vanilla-world-seed-search-engine.112259/
+author = Unftf
+version = 0.5.1.0
+side = Client
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.config, .git\*, .vscode\*
+includePDB = false
+languageVersion = 6
